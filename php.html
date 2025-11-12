@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - UGM</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <header class="dashboard-header">
+            <div class="header-left">
+                <img src="assets/ut.png" alt="Logo UT" class="logo">
+                <h1>Universitas Gadjah Mada</h1>
+            </div>
+            <div class="header-right">
+                <span id="greeting" class="greeting"></span>
+                <button id="logoutBtn" class="btn-secondary">Keluar</button>
+            </div>
+        </header>
+
+        <nav class="dashboard-nav">
+            <ul>
+                <li><a href="dashboard.html" class="nav-link active">Dashboard</a></li>
+                <li><a href="stok.html" class="nav-link">Informasi Mahasiswa</a></li>
+                <li><a href="tracking.html" class="nav-link">Informasi Kelulusan</a></li>
+                <li class="dropdown">
+                   
+                    <div class="dropdown-content">
+                        <a href="#">Monitoring Progress DO Bahan Ajar</a>
+                        <a href="#">Rekap Bahan Ajar</a>
+                    </div>
+                </li>
+              
+                <li class="dropdown">
+                    <a href="#" class="nav-link">Materi Pembelajaran </a>
+                    <div class="dropdown-content">
+                        <a href="php.html">PHP</a>
+                        <a href="html.html">HTML</a>
+                        <a href="javascript.html">JavaScript</a>
+                        <a href="css.html">CSS</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+
+        <main class="dashboard-main">
+            <h3 style="color: white;">Pengertian PHP
+
+                PHP atau PHP Hypertext Prepocessor adalah sebuah bahasa script berbasis server (server-side) yang mampu mem-parsing kode php dari kode web dengan ekstensi php, sehingga menghasilkan tampilan website yang dinamis di sisi client (browser). Dengan menambahkan skrip PHP, anda bisa menjadikan halaman HTML menjadi lebih powerful, dinamis dan bisa dipakai sebagai aplikasi lengkap, misalnya web portal, e-learning, e-library, dll.
+                
+                PHP pertama kali dikembangkan oleh seorang programmer bernama Rasmus Lerdrof pada tahun 1995. Selanjutnya Rasmus merilis kode sumber tersebut untuk umum dan menamakan PHP/FI sehingga banyak pemrograman yang tertarik untuk ikut mengembangkan PHP. Dan selanjutnya pada tahun 1997 perusahaan bernama Zend, mengembangkan intrepreter PHP tersebut menjadi lebih baik.
+                
+                Kode PHP diproses melalui pemrosesan dari sisi server, makanya PHP disebut skrip server-side. Sehingga kode PHP tidak bisa diberikan langsung ketika ada permintaan dari client(browser).
+                
+                Kode PHP dimasukkan ke dalam kode HTML dengan cara menyelipkannya di dalam kode HTML. Untuk membedakan kode PHP dengan kode HTML, di depan kode PHP tersebut diberi tag pembuka dan diakhir kode PHP diberi tag penutup.
+                
+                Dengan adanya kode PHP, sebuah halaman web bisa melakukan banyak hal yang dinamis, seperti mengakses database, membuat gambar, membaca dan menulis file, dan sebagainya. Hasil pengolahan kode PHP akan dikembalikan lagi dalam bentuk kode HTML untuk ditampilkan di browser.</h3>
+        </main>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
