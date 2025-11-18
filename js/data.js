@@ -29,7 +29,12 @@ const dataBahanAjar = [
         nama: "Fahmi",
         stok: 'Bandung',
         status: "Fahmi@gmail.com"
-    }
+    },
+    {
+        kode: "BA005",
+        nama: "Ghifari",
+        stok: "Bandung",
+        status: "Ghifari@gmail.com",
 ];
 
 // Data dummy untuk tracking pengiriman
@@ -64,4 +69,5 @@ const dataPengiriman = [
         jenisPaket: "Reguler",
         totalPembayaran: 95000
     }
+
 ];
